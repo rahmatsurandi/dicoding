@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(215, 217, 253);
+}
+header {
+  margin-bottom: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+
+#nav {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border-radius: 10%;
+}
+#nav h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: aquamarine;
+  background-color: black;
+  float: left;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 10px;
+}
+#nav h1:hover {
+  background-color: black;
+  color: aqua;
+  transform: scale(1.5);
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+#nav #list {
+  float: right;
+  font-display: none;
+  border-radius: 10%;
+}
+#nav #list li {
+  display: inline-flex;
+  background-color: aquamarine;
+  font-size: 30px;
+  background: fixed;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 10px 5px 10px 5px;
+}
+#nav a {
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+  color: aqua;
+  border-radius: 10px;
+}
+#nav a:hover {
+  background-color: aqua;
+  text-transform: capitalize;
+  transform: scale(1.5);
+  border-radius: 50%;
+  border: 1px solid greenyellow;
+  color: black;
+}
+#jak {
+  margin-top: 20px;
+}
+.container {
+  width: 50%;
+  height: auto;
+  float: left;
+  text-transform: capitalize;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: absolute;
+  margin-top: 20px;
+  padding: 10px;
+}
+.container-dis {
+  width: 45%;
+  height: 100%;
+  margin-left: 70%;
+  float: right;
+  position: relative;
+  padding: 10px;
+}
+#footer {
+  margin-top: 115%;
+}
+.h11,
+.h12,
+.h13 {
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  color: aquamarine;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.h11:hover,
+.h12:hover,
+.h13:hover {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: blue;
+  color: aquamarine;
+}
+
+.lambang {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 10px green;
+}
+p {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+.container li {
+  font-size: 15px;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+.profile h3 {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: capitalize;
+}
+.profile ul li {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-decoration-line: none;
+  margin: 10px;
+}
+.profile ul li a:hover {
+  color: yellowgreen;
+}
+footer {
+  text-align: center;
+  margin-top: 125%;
+  bottom: auto;
+  color: blue;
+}
